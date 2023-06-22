@@ -2,5 +2,7 @@ site_name: My Docs
 theme:
   name: material
 nav:
-  - Home: index.md
-  - About: details.md
+  - Home Page: index.md
+
+plugins:
+  - mkdocstrings
